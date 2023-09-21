@@ -4,6 +4,8 @@
 This repository hosts the codebase and dataset for our research paper, "Simultaneous Synchronization and Calibration for Wide-baseline Stereo Event Cameras," currently under review for ICRA2024.
 
 ## Abstract
+Event-based cameras offer remarkable advantages such as high temporal resolution and low power consumption but suffer from synchronization issues when deployed in multi-camera settings. Our paper introduces a software-based method to achieve millisecond-level synchronization while simultaneously estimating extrinsic parameters. Our approach eliminates the need for specialized hardware, thus making it particularly suitable for wide-baseline configurations. The robustness and applicability of our method are empirically demonstrated through extensive simulations and real-world experiments.
+&nbsp;
 
 <div align="center">
     <div align="center">
@@ -14,10 +16,6 @@ This repository hosts the codebase and dataset for our research paper, "Simultan
     </div>
 </div>
 &nbsp;
-&nbsp;
-&nbsp;
-
-
 
 <div align="center">
     <div align="center">
@@ -28,10 +26,6 @@ This repository hosts the codebase and dataset for our research paper, "Simultan
     </div>
 </div>
 &nbsp;
-&nbsp;
-&nbsp;
-
-Event-based cameras offer remarkable advantages such as high temporal resolution and low power consumption but suffer from synchronization issues when deployed in multi-camera settings. Our paper introduces a software-based method to achieve millisecond-level synchronization while simultaneously estimating extrinsic parameters. Our approach eliminates the need for specialized hardware, thus making it particularly suitable for wide-baseline configurations. The robustness and applicability of our method are empirically demonstrated through extensive simulations and real-world experiments.
 
 ## Usage
 
@@ -42,7 +36,7 @@ Event-based cameras offer remarkable advantages such as high temporal resolution
         <img src="./fig/unsynchronized.gif" width="600">
     </div>
     <div style="color: gray; font-size: 10px;">
-        Unsynchronized event streams and F matrix.
+        Unsynchronized event streams and F matrix
     </div>
 </div>
 &nbsp;
@@ -52,7 +46,7 @@ Event-based cameras offer remarkable advantages such as high temporal resolution
         <img src="./fig/synchronized.gif" width="600">
     </div>
     <div style="color: gray; font-size: 10px;">
-        Synchronized event streams and F matrix.
+        Synchronized event streams and F matrix
     </div>
 </div>
 
