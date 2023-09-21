@@ -12,7 +12,7 @@ Event-based cameras offer remarkable advantages such as high temporal resolution
         <img src="./fig/head_a.png" width="500">
     </div>
     <div style="color: gray; font-size: 10px;">
-        Illustration of dual-perspective event capture: Two event-based cameras record events of a moving object from divergent viewpoints.
+        Illustration of dual-perspective event capture
     </div>
 </div>
 &nbsp;
@@ -22,7 +22,7 @@ Event-based cameras offer remarkable advantages such as high temporal resolution
         <img src="./fig/head_b.png" width="500">
     </div>
     <div style="color: gray; font-size: 10px;">
-        Temporal misalignment: The event streams from the two cameras are asynchronously offset by a temporal discrepancy.
+        Temporal misalignment
     </div>
 </div>
 &nbsp;
