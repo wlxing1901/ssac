@@ -1,0 +1,75 @@
+E:
+- - 0
+  - -5
+  - 3.06162e-16
+- - -5
+  - 0
+  - 5
+- - 3.06162e-16
+  - -5
+  - 0
+K1:
+- - 200.0
+  - 0
+  - 173.0
+- - 0
+  - 200.0
+  - 130.0
+- - 0
+  - 0
+  - 1
+K2:
+- - 200.0
+  - 0
+  - 173.0
+- - 0
+  - 200.0
+  - 130.0
+- - 0
+  - 0
+  - 1
+R:
+- - 6.12323e-17
+  - 6.12323e-17
+  - 1
+- - -6.12323e-17
+  - 1
+  - -6.12323e-17
+- - -1
+  - -6.12323e-17
+  - 6.12323e-17
+angle: '90'
+density_limit: 200
+dist_cnt_num: 400
+find_best_time: 1
+img_num: 10
+img_shape:
+- 346
+- 260
+import_params_from_yaml: 1
+left_begin_time: 1.0
+left_data_dir: /home/wlxing/Codes/ssac_github/data/test/left.txt
+left_duration: 20.0
+nb_points: 20
+output_dir: /home/wlxing/Codes/ssac_github/output/test/
+rad_dist1:
+- 0
+- 0
+rad_dist2:
+- 0
+- 0
+radius: 5.0
+real_time_diff: 0.050
+right_data_dir: /home/wlxing/Codes/ssac_github/data/test/right.txt
+right_duration: 20.0
+stereo_params_dir: test
+t:
+- - -5
+  - 3.06162e-16
+  - 5
+t_factor: 1000
+time_search_begin: -0.150
+time_search_end: 0.250
+time_search_num: 41
+traj_num: 10000
+traj_time_interval: 0.02

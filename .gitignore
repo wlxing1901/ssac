@@ -1,6 +1,7 @@
-**/test/
+# **/test/
 *.mp4
-*.py
+# *.py
 **/__pycache__/
 *.pyc
-**.zip
+*.zip
+*.txt
