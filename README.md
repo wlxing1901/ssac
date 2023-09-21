@@ -1,5 +1,5 @@
 # Simultaneous Synchronization and Calibration for Wide-baseline Stereo Event Cameras
-## ICRA2024 Paper Submission: Coming Soon
+## ICRA2024 Paper Submission
 
 This repository hosts the codebase and dataset for our research paper, "Simultaneous Synchronization and Calibration for Wide-baseline Stereo Event Cameras," currently under review for ICRA2024.
 
