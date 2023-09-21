@@ -7,9 +7,9 @@ This repository hosts the codebase and dataset for our research paper, "Simultan
 
 <div align="center">
     <div align="center">
-        <img src="./fig/head_a.png" width="600">
+        <img src="./fig/head_a.png" width="500">
     </div>
-    <div style="color: black; font-size: 10px;">
+    <div style="color: gray; font-size: 10px;">
         Illustration of dual-perspective event capture: Two event-based cameras record events of a moving object from divergent viewpoints.
     </div>
 </div>
@@ -21,10 +21,10 @@ This repository hosts the codebase and dataset for our research paper, "Simultan
 
 <div align="center">
     <div align="center">
-        <img src="./fig/head_b.png" width="600">
+        <img src="./fig/head_b.png" width="500">
     </div>
-    <div style="color: black; font-size: 10px;">
-        Temporal misalignment: The event streams from the two cameras are asynchronously offset by a temporal discrepancy $t_d$. The curves feature <span style="color:blue">blue</span> and <span style="color:red">red</span> points, signifying the positive and negative events generated during the object's motion, whereas the scattered points illustrate the background noise.
+    <div style="color: gray; font-size: 10px;">
+        Temporal misalignment: The event streams from the two cameras are asynchronously offset by a temporal discrepancy.
     </div>
 </div>
 &nbsp;
@@ -33,13 +33,28 @@ This repository hosts the codebase and dataset for our research paper, "Simultan
 
 Event-based cameras offer remarkable advantages such as high temporal resolution and low power consumption but suffer from synchronization issues when deployed in multi-camera settings. Our paper introduces a software-based method to achieve millisecond-level synchronization while simultaneously estimating extrinsic parameters. Our approach eliminates the need for specialized hardware, thus making it particularly suitable for wide-baseline configurations. The robustness and applicability of our method are empirically demonstrated through extensive simulations and real-world experiments.
 
-
-
 ## Usage
 
 
 ## Results
+<div align="center">
+    <div align="center">
+        <img src="./fig/unsynchronized.gif" width="600">
+    </div>
+    <div style="color: gray; font-size: 10px;">
+        Unsynchronized event streams and F matrix.
+    </div>
+</div>
+&nbsp;
 
+<div align="center">
+    <div align="center">
+        <img src="./fig/synchronized.gif" width="600">
+    </div>
+    <div style="color: gray; font-size: 10px;">
+        Synchronized event streams and F matrix.
+    </div>
+</div>
 
 ## Contributions
 - Novel software-based approach for temporal synchronization of event-based cameras in wide-baseline settings.
