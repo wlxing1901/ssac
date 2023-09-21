@@ -29,8 +29,48 @@ Event-based cameras offer remarkable advantages such as high temporal resolution
 
 ## Usage
 
+To get started, follow the step-by-step instructions below:
+
+1. **Dataset Download**: 
+   - Begin by downloading our datasets from our provided [OneDrive link](https://github.com/uzh-rpg/rpg_esim). 
+   - Additionally, if you wish to simulate more data yourself, you can leverage the configurations we provide and use the ESIM tool, available at [ESIM's GitHub Repository](https://github.com/uzh-rpg/rpg_esim).
+
+2. **Environment Setup**:
+   - Navigate to the `./config` directory where you can find the `ssac.yaml` file.
+   - Use this yaml file to create a conda environment by running:
+     ```
+     conda env create -f ssac.yaml
+     ```
+   - Activate the newly created environment:
+     ```
+     conda activate <environment_name>
+     ```
+
+3. **MATLAB Engine API Setup**:
+    - Locate your MATLAB root directory. Once located, navigate to the external engines python directory by running:
+        ```
+        cd "matlabroot/extern/engines/python"
+        ```
+    - Inside this directory, set up the MATLAB Engine API by executing:
+        ```
+        python setup.py install
+        ```
+
+4. **Running the Code**:
+   - Navigate to the `./src` directory.
+   - To execute the main script, run:
+     ```
+     python esim_ssac.py
+     ```
+   - The configuration settings within the script can be easily modified to suit your needs or to experiment with different parameters.
+
+
+
 
 ## Results
+The robustness of our proposed synchronization approach is empirically substantiated through extensive evaluations, including both simulation-based benchmarks and real-world experimental validations.
+&nbsp;
+
 <div align="center">
     <div align="center">
         <img src="./fig/unsynchronized.gif" width="600">
