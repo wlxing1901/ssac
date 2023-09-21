@@ -73,7 +73,7 @@ The robustness of our proposed synchronization approach is empirically substanti
 
 <div align="center">
     <div align="center">
-        <img src="./fig/unsynchronized.gif" width="600">
+        <img src="./fig/unsynchronized.gif" width="700">
     </div>
     <div style="color: gray; font-size: 10px;">
         Unsynchronized event streams and F matrix
@@ -83,7 +83,7 @@ The robustness of our proposed synchronization approach is empirically substanti
 
 <div align="center">
     <div align="center">
-        <img src="./fig/synchronized.gif" width="600">
+        <img src="./fig/synchronized.gif" width="700">
     </div>
     <div style="color: gray; font-size: 10px;">
         Synchronized event streams and F matrix
