@@ -6,7 +6,7 @@ This repository hosts the codebase and dataset for our research paper, "Simultan
 ## Abstract
 
 <div align="center">
-  <img src=".fig/head_a.png" alt="test" width="200" /> /
+  <img src="./fig/head_a.png" alt="test" width="200" /> /
 </div>
 
 
