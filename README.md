@@ -9,6 +9,7 @@ This repository hosts the codebase and dataset for our research paper, "Simultan
     <figure style="display: inline-block;">
         <img src="./fig/head_a.png" width="500" style="display: block;" />
         <figcaption>
+        
         Illustration of dual-perspective event capture: Two event-based cameras record events of a moving object from divergent viewpoints.
         </figcaption>
     </figure>
